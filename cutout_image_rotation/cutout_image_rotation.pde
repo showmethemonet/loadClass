@@ -12,10 +12,10 @@ void draw() {
   
   
   if (millis() - timer >= 8000) {  
-    randomNumber = random(1,36);
+    randomNumber = random(1,35);
     image = loadImage(int(randomNumber) + ".png");
     timer = millis();
-    print(timer);
+    //print(timer);
   }
   
   translate(width/2, height/2);

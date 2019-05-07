@@ -21,6 +21,7 @@ void draw() {
 void keyPressed() {
   if (key == CODED) {
     if (keyCode == UP) {
+      
       //fillVal = 255;
        test.display();
     } else if (keyCode == DOWN) {
