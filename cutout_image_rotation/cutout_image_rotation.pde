@@ -11,13 +11,8 @@ void setup() {
 void draw() {
   
   
-<<<<<<< HEAD
-  if (millis() - timer >= 8000) {  
-    randomNumber = random(1,35);
-=======
   if (millis() - timer >= 3000) {  
     randomNumber = random(1,36);
->>>>>>> 255d6bb434793f17ecb763fbe88cc774ea878b29
     image = loadImage(int(randomNumber) + ".png");
     timer = millis();
     //print(timer);
